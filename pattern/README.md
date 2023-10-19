@@ -1,8 +1,8 @@
 https://refactoring.guru/ja/design-patterns/go
 # generator
+- factory method
 - abstract factory
 - builder
-- factory method
 - prototype
 - singleton
 # structure
