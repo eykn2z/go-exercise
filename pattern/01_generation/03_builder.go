@@ -15,6 +15,8 @@ class1(ex: House)が持つclass member(class2,3..)(ex: 1st floor, 2nd floor...)�
 
 ※各builderのメソッドの引数に固定値を入れられれば（パターン化出来れば)、builderは実装可能
 ※あくまで複数のbuilderパターンが存在する・増えうる時に実装にしないと、複雑性が増す
+
+abstract factory = builderのbuilder?
 */
 
 type IBuilder interface {
