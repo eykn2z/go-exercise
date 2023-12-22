@@ -7,7 +7,7 @@ import (
 
 func main() {
 	s := []string{"hello", "world"}
-	for i, x := range slices.Backward(s) {
+	for i, x := range s {
 		fmt.Println(i, x)
 	}
 }
