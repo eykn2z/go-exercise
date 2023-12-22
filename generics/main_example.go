@@ -25,4 +25,8 @@ func main() {
 	mySet.Remove("banana")
 	fmt.Println("Contains 'banana' after removal:", mySet.Contains("banana")) // falseが返る
 	fmt.Println("Set items after removal:", mySet.Items())
+
+	//mySet2 := New()
+	//mySet2.Add("apple") // 型指定していないので入れられない
+	//mySet2.Add(1) // 型指定していないので入れられない
 }
