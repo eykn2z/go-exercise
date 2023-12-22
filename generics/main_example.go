@@ -6,13 +6,13 @@ import (
 
 func main() {
 	// 新しいsetを作成
-	mySet := New()
+	mySet := New[string]()
 
 	// 要素を追加
 	mySet.Add("apple")
 	mySet.Add("banana")
 	mySet.Add("orange")
-	mySet.Add(1) // 入れられる
+	// mySet.Add(1) 入れられない
 
 	// 要素が含まれているか確認
 	fmt.Println("Contains 'apple':", mySet.Contains("apple")) // trueが返る

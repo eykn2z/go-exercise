@@ -1,4 +1,4 @@
-package set
+package main
 
 type Set struct {
 	items map[interface{}]bool
